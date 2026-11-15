@@ -1,0 +1,11 @@
+.DS_Store
+# Xcode / XcodeGen output (regenerate with `xcodegen generate`)
+ios/ViSense.xcodeproj/
+ios/build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+# local test binaries
+tools/build/
+ios/Secrets.xcconfig
+__pycache__/

@@ -1,0 +1,12 @@
+// Signing settings — EDIT THESE TWO LINES (see README "iOS: signing & installing").
+//
+// DEVELOPMENT_TEAM: your 10-character Team ID (Xcode > Settings > Accounts > your
+//                   "Personal Team"). Leave empty and pick the team in Xcode's
+//                   Signing tab instead if you prefer (but regenerating resets it).
+// PRODUCT_BUNDLE_IDENTIFIER: must be globally unique for a free Apple ID,
+//                   e.g. com.<yourname>.visense
+DEVELOPMENT_TEAM = 2T6B5Y8FYB
+PRODUCT_BUNDLE_IDENTIFIER = com.adityants.visense
+
+// Databricks secrets (git-ignored file; optional include)
+#include? "Secrets.xcconfig"
